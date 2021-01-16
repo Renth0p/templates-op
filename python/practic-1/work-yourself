@@ -7,12 +7,12 @@ R = input("Радиус: ")
 H = float(H)
 R = float(R)
 
-S = math.pi*(H*H)
-C = math.pi**2*(R * H)
+bok = math.pi*R*H
+osn = math.pi*R**2
 
-P = (S * S) + C
+A = bok + 2*osn
 
-print (P)
+print ("Площадь полной поверхности: ", A)
 
 
 #2
