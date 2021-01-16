@@ -1,0 +1,47 @@
+#1
+import math
+
+H = input("Высота: ")
+R = input("Радиус: ")
+
+H = float(H)
+R = float(R)
+
+S = math.pi*(H*H)
+C = math.pi**2*(R * H)
+
+P = (S * S) + C
+
+print (P)
+
+
+#2
+import math
+
+R = input("Радиус: ")
+L = input("Длина: ")
+
+L= float(L)
+R = float(R)
+
+S = math.pi*(R*R)
+C = math.pi**2* R
+
+print ('Площадь круга: ', S)
+print ('Длина круга: ', C)
+
+
+#3
+n1 = "3"
+n2 = "8"
+
+r1 = ord(n1) - ord(n2)
+r2 = ord(n1)-48 + ord(n2)-48
+
+print(r1)
+print(r2)
+
+#4
+c = input('Letter (a-z): ')
+
+print("Это число из: ", ord(c)-96)
